@@ -1,4 +1,4 @@
-FROM  Ubuntu:20.04
+FROM  ubuntu:20.04
 MAINTAINER riad1215@yahoo.com
 RUN apt install apache2 \
  zip\
