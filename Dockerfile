@@ -1,6 +1,6 @@
-FROM  centos:latest
+FROM  Ubuntu:20.04
 MAINTAINER riad1215@yahoo.com
-RUN yum install -y httpd \
+RUN apt install apache2 \
  zip\
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
